@@ -38,6 +38,7 @@ export default function Root({ children }: { children: React.ReactNode }) {
 const responsiveBackground = `
 body {
   background-color: #fff;
+  font-family: PlusJakartaSans_400Regular, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
 }
 @media (prefers-color-scheme: dark) {
   body {

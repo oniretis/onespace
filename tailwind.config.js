@@ -4,7 +4,19 @@ module.exports = {
 
   presets: [require('nativewind/preset')],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['PlusJakartaSans_400Regular', 'ui-sans-serif', 'system-ui'],
+        jakarta: [
+          'PlusJakartaSans_400Regular',
+          'PlusJakartaSans_500Medium',
+          'PlusJakartaSans_600SemiBold',
+          'PlusJakartaSans_700Bold',
+          'ui-sans-serif',
+          'system-ui',
+        ],
+      },
+    },
   },
   plugins: [],
 };
